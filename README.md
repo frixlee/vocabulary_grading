@@ -18,3 +18,10 @@ pip install pandas openpyxl reportlab
 
 再运行脚本：
 python vocabulary_grading.py article.txt vocab.xlsx after_grading.pdf font.ttc
+
+
+Update 2
+1，简单美化：增加了一条竖线作为文章与词汇的分隔，加了页脚
+2，右侧词汇表去重，已经显示过的单词不再显示。
+
+已知问题：部分文章因为符号的原因，会报错。
