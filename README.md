@@ -7,7 +7,7 @@ Install before first using :
 pip install pandas openpyxl reportlab
 
 then run the script :
-python vocabulary_grading.py article.txt vocab.xlsx after_grading.pdf font.ttc
+python vocabulary_grading.py article.txt vocab.xlsx annotated.pdf font.ttc
 
 
 自动把文章里的英语单词进行分类并标记颜色，输出一个PDF。词汇表按大陆考试等级分类，目前分类到CET4和CEFR C2。
@@ -17,7 +17,7 @@ python vocabulary_grading.py article.txt vocab.xlsx after_grading.pdf font.ttc
 pip install pandas openpyxl reportlab
 
 再运行脚本：
-python vocabulary_grading.py article.txt vocab.xlsx after_grading.pdf font.ttc
+python vocabulary_grading.py article.txt vocab.xlsx annotated.pdf font.ttc
 
 
 Update 2
